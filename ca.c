@@ -18,6 +18,25 @@ void multiplication(long int no1,long int no2)
     printf("%ld", no1 * no2);
 }
 
+oid division(long int no1, long int no2)
+{ 
+// in this stack the divison takes place  
+  if(no2!=0){
+    // to check the number is divided by 0
+    if (no1 % no2 != 0)
+    {
+        float c = no1 / (float)no2;
+        printf("%f", c);
+    }
+    else
+    {
+        printf("%ld", no1 / no2);
+    }
+}else{
+    printf("ERROR : division by 0\n");
+    // to show to the user that the division by 0 is not possible
+}
+
 int main(void)
 {
 // intially the code starts from here..
