@@ -6,6 +6,12 @@ void addition(long int no1,long int no2)
     printf("%ld", no1 + no2);
 }
 
+void subtraction(long int no1,long int no2)
+{
+  // in this stack the subtraction takes place
+    printf("%ld", no1 - no2);
+}
+
 int main(void)
 {
 // intially the code starts from here..
